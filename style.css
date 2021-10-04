@@ -1,0 +1,38 @@
+#poke-list{
+    margin-top: 10vh;
+    height: 80vh;
+    width: max-content;
+    overflow-y: scroll;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    font-size: 15pt;
+    background-color: #2a2a2ac9;
+    color: White;
+}
+
+th{
+    padding: 0;
+}
+
+tbody tr:hover{
+    background-color: #e84313;
+    color: white;
+    cursor: pointer;
+}
+
+#type{
+    padding-left: 10px;
+}
